@@ -28,6 +28,7 @@ if (inProduction) {
 }
 
 app.locals.postbox_url = process.env.POSTBOX_URL || 'http://localhost:9000'
+app.locals.roca_url = process.env.ROCA_URL
 
 app.use(require('./lib/render_without_layout'))
 
