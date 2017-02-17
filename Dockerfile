@@ -1,4 +1,4 @@
-FROM node:6.3
+FROM hypriot/rpi-node
 
 ENV HOME=/home/app
 
